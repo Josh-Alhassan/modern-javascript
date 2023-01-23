@@ -46,3 +46,24 @@ const newPassport = function(person) {
 
 newPassport(joshua)
 checkIn(flight, joshua)
+
+// First class and higher order function
+const oneWord = function(str) {
+    return str.replace(/ /g, '');
+}
+
+const upperFirstWord = function(str) {
+    const [first, ...others] = str.split(' ');
+    return [first.toUpperCase(), ...others].join(' ');
+};
+
+// HIgher Order Function
+const transformer = function(str, fn) {
+    console.log(`Original string: ${str}`);
+    console.log(`Transformed String: ${fn(str)}`);
+
+    console.log(`Transformed by : ${fn.name}`)
+}
+
+transformer(`JavaScript is the best:`, upperFirstWord);
+transformer(`JavaScript is the best:`, oneWord)

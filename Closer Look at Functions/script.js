@@ -17,3 +17,32 @@ console.log("LH123");
 console.log("LH123", 2, 800)
 console.log("LH123", 5)
 console.log("LH213", undefined, 1000)
+
+
+// How Passing Arguements works
+const flight = "LH234";
+const joshua = {
+    name: "Joshua Alhasan",
+    passpost: 2345566677892,
+};
+
+const checkIn = function(flightNum, passenger) {
+    flightNum = "LH999";
+    passenger.name = "Mr. " + passenger.name;
+
+    if (passenger.passport === 2345566677892) {
+        console.log("Checked In")
+    } else {
+        console.log("Wrong passport!")
+    }
+};
+
+checkIn(flight, joshua);
+console.log(joshua)
+
+const newPassport = function(person) {
+    person.passport = Math.trunc(Math.random() * 10000000);
+}
+
+newPassport(joshua)
+checkIn(flight, joshua)

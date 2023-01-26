@@ -1,3 +1,5 @@
+const userChosenKeyName = 'Level 1';
+
 const person = {
     name: "Joshua",
     "last name": 'Alhassan',
@@ -7,6 +9,7 @@ const person = {
         alert("Hello, there!!")
     },
     1.5: "it's a +ve integer",
+    [userChosenKeyName]: '...',
 }
 
 // person.greet()
@@ -23,3 +26,4 @@ delete person.hubbies;
 console.log(person)
 console.log(person['last name']);
 console.log(person[1.5]);
+console.log(person.userChosenKeyName)

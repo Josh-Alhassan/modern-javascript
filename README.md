@@ -25,3 +25,6 @@ We can use any string as key in object.
 We can use +intgers only as object keys. Dot notation is not used or allowed to access the value of the key +integer only bracket notation.
 
 In JS objects notations are ordered in the order of how we create it. There's an exception though, if your object keys are numbers, it will be sorted.
+
+### Dynamic Property Access & Setting Properties Dynamically
+With bracket notation, we can dynamically access properties with this notation.

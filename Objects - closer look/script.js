@@ -5,7 +5,8 @@ const person = {
     hubbies: ["Sports", "Cooking"],
     greet: function() {
         alert("Hello, there!!")
-    }
+    },
+    1.5: "it's a +ve integer",
 }
 
 // person.greet()
@@ -21,3 +22,4 @@ delete person.hubbies;
 
 console.log(person)
 console.log(person['last name']);
+console.log(person[1.5]);

@@ -19,4 +19,9 @@ Note: Never assign undefind to any object value. It's bad code. Use "null" value
 ### Special key names & Square Brcket Property Access
 Anything we can use as a variable name, can be used as a key name. They are even flexible than variable. The vice-versa is not true.
 
-We can use any string as key in object
+We can use any string as key in object.
+
+### Property Types & Property Order
+We can use +intgers only as object keys. Dot notation is not used or allowed to access the value of the key +integer only bracket notation.
+
+In JS objects notations are ordered in the order of how we create it. There's an exception though, if your object keys are numbers, it will be sorted.

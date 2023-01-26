@@ -8,3 +8,14 @@ const person = {
 }
 
 person.greet()
+
+// Adding property
+person.isAdmin = true;
+
+// Modifying property
+person.age = 25;
+console.log(person)
+// Deleting property
+delete person.hubbies;
+
+console.log(person)

@@ -13,3 +13,5 @@ Objects are core data structure in JavaScript. They help us tyoically reflect "r
 In Objects, we have two types of values:
 + Primitive Values: String, Boolean, null, Number, Undefined, Symbol.
 + Reference Values: Objects {...}, Arrays [...], Dom nodes.
+
+Note: Never assign undefind to any object value. It's bad code. Use "null" value instead.

@@ -15,3 +15,8 @@ In Objects, we have two types of values:
 + Reference Values: Objects {...}, Arrays [...], Dom nodes.
 
 Note: Never assign undefind to any object value. It's bad code. Use "null" value instead.
+
+### Special key names & Square Brcket Property Access
+Anything we can use as a variable name, can be used as a key name. They are even flexible than variable. The vice-versa is not true.
+
+We can use any string as key in object

@@ -1,5 +1,6 @@
 const person = {
     name: "Joshua",
+    "last name": 'Alhassan',
     age: 24,
     hubbies: ["Sports", "Cooking"],
     greet: function() {
@@ -7,7 +8,7 @@ const person = {
     }
 }
 
-person.greet()
+// person.greet()
 
 // Adding property
 person.isAdmin = true;
@@ -19,3 +20,4 @@ console.log(person)
 delete person.hubbies;
 
 console.log(person)
+console.log(person['last name']);
